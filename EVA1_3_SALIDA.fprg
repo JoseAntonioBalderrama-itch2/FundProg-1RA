@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="EVA1_3_SALIDA"/>
+        <attribute name="authors" value="Josea"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-09-03 06:43:59 "/>
+        <attribute name="created" value="Sm9zZWE7TVNJOzIwMjYtMDktMDM7IjA2OjE3OjQyICI7MTkyOA=="/>
+        <attribute name="edited" value="Sm9zZWE7TVNJOzIwMjYtMDktMDM7IjA2OjQzOjU5ICI7MTsyMDQz"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <output expression="&quot;Bienvenido a Fundamentos de Programacion&quot;" newline="True"/>
+            <output expression="&quot;Jose Antonio Balderrama Hernandez&quot;" newline="True"/>
+            <output expression="&quot;Tu calificacion sera: &quot;" newline="False"/>
+            <output expression="85" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
