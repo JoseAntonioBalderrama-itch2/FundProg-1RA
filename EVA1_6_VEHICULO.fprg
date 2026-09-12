@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="EVA1_6_VEHICULO"/>
+        <attribute name="authors" value="bisonte"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-09-11 11:34:33 "/>
+        <attribute name="created" value="Ymlzb250ZTtERVNLVE9QLUdKM0VLU0g7MjAyNi0wOS0xMTswNjoyNDoxOSBwLiBtLjszMzA5"/>
+        <attribute name="edited" value="Ymlzb250ZTtERVNLVE9QLUdKM0VLU0g7MjAyNi0wOS0xMTswNjo0Nzo0MiBwLiBtLjs1OzM0MjI="/>
+        <attribute name="edited" value="Sm9zZWE7TVNJOzIwMjYtMDktMTE7IjExOjM0OjMzICI7MjsyMDMx"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Marca" type="String" array="False" size=""/>
+            <declare name="Modelo" type="String" array="False" size=""/>
+            <declare name="A&#241;o" type="Integer" array="False" size=""/>
+            <declare name="Color" type="String" array="False" size=""/>
+            <declare name="Kilometraje" type="Integer" array="False" size=""/>
+            <declare name="Precio" type="Real" array="False" size=""/>
+            <output expression="&quot;La Marca Del Carro: &quot;" newline="True"/>
+            <input variable="Marca"/>
+            <output expression="&quot;El Modelo Del Carro: &quot;" newline="True"/>
+            <input variable="Modelo"/>
+            <output expression="&quot;El Color Del Carro: &quot;" newline="True"/>
+            <input variable="Color"/>
+            <output expression="&quot;A&#241;o del Carro: &quot;" newline="True"/>
+            <input variable="A&#241;o"/>
+            <output expression="&quot;El Kilometraje Del Carro: &quot;" newline="True"/>
+            <input variable="Kilometraje"/>
+            <output expression="&quot;El precio Del Carro: &quot;" newline="True"/>
+            <input variable="Precio"/>
+            <output expression="&quot;++++DATOS CAPTURADOS++++&quot;" newline="True"/>
+            <output expression="&quot;Marca Del Carro: &quot;" newline="False"/>
+            <output expression="Marca" newline="True"/>
+            <output expression="&quot;Modelo Del Carro: &quot;" newline="False"/>
+            <output expression="Modelo" newline="True"/>
+            <output expression="&quot;Color Del Carro: &quot;" newline="False"/>
+            <output expression="Color" newline="True"/>
+            <output expression="&quot;A&#241;o del Carro: &quot;" newline="False"/>
+            <output expression="A&#241;o" newline="True"/>
+            <output expression="&quot;Kilometraje Del Carro: &quot;" newline="False"/>
+            <output expression="Kilometraje" newline="True"/>
+            <output expression="&quot;Precio Del Carro: &quot;" newline="False"/>
+            <output expression="Precio" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
